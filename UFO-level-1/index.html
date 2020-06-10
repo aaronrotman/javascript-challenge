@@ -15,27 +15,27 @@
   <body>
     <div class="jumbotron jumbotron-fluid text-center rounded d-flex align-items-center"> 
         <div class="container">
-          <h1 class="display-4">UFO Sightings</h1><br>
-          <p class="lead">Filter sightings by date below.</p>
+          <h1 class="display-4">Aliens: Truth or Real?</h1><br>
+          <p class="lead">Filter UFO sightings by date below.</p>
         </div>
     </div>
     <form>
       <div class="form-date text-center">
-        <label class="form-date-label">Select a date:</label>
-        <input type="date" class="form-date-input" id="date-input">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <label class="form-date-label">Enter a date:</label>
+        <input type="text" class="form-date-input" id="date-input-form" value="1/1/2010">
+        <button type="submit" class="btn btn-primary" id="input-button">Filter Sightings</button>
       </div>
     </form><br>
     <div class="table-zone">
       <table class="table table-striped table-dark">
         <thead>
           <tr>
-            <th class="table-head">Datetime</th>
+            <th class="table-head">Date</th>
             <th class="table-head">City</th>
             <th class="table-head">State</th>
             <th class="table-head">Country</th>
             <th class="table-head">Shape</th>
-            <th class="table-head">Duration (minutes)</th>
+            <th class="table-head">Duration</th>
             <th class="table-head">Comments</th>
           </tr>
         </thead>
